@@ -6,7 +6,9 @@ from typing import List
 
 
 class Solution:
-    def isAcronym(self, words: List[str], s: str) -> bool:
+
+    @staticmethod
+    def isAcronym(words: List[str], s: str) -> bool:
         if len(words) != len(s):
             return False
 
@@ -19,12 +21,14 @@ class Solution:
 
 
 def test_solution():
+    """
+    Test if the provided solution is correct.
+    """
 
     words = ['Hire', 'Me', 'Uber']
     string="HMUP"
-    s = Solution()
 
-    return s.isAcronym(words, string) == False
+    return Solution.isAcronym(words, string) == False
 
 
 print(test_solution())

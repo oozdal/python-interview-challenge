@@ -1,5 +1,5 @@
 # Suppose we are given an array of apples as well as an array of boxes.
-# Each elemnt in the apple array is number of apples in a container.
+# Each element in the apple array is number of apples in a container.
 # Each box is in the boxes array is number of apples that certain box can store.
 # Meaning, we are given 3 boxes, and one box can store 5 apples, the other one can store 1 apple,
 # and the last one can store 8 apples.
